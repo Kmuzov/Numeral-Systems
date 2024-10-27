@@ -3,39 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Number Systems</title>
     <link rel="stylesheet" href="style.css">
+    <title>Numeral Systems</title>
 </head>
 <body>
-    
-    Number Systems <br> By __Shaurma <br><br>
 
     <script src="DecToBin.js"></script>
     <script src="BinToDec.js"></script>
     <script src="replaceText.js"></script>
     <script src="getText.js"></script>
 
+    <div id="lic"><h4>Numeral Systems</h4><h5> By __Shaurma </h5></div>
+
     <div id="Decimal to Binary">
     
         <h3>Decimal to Binary</h3>
 
         <input type="text" placeholder="Enter Decimal Value" id="DecValue">
-        <button onclick="ReplaceText('DecToBinID', DecToBin(Number(GetText('DecValue'))))">Calculate</button>
         <input type="text" readonly id="DecToBinID" placeholder="result">
+        <button onclick="ReplaceText('DecToBinID', DecToBin(Number(GetText('DecValue'))))">Calculate</button>
     
     </div>
 
-    <br><br><br>
 
     <div id="Binary to Decimal">
 
         <h3>Binary to Decimal</h3>
 
         <input type="text" placeholder="Enter Binary Value" id="BinValue">
-        <button onclick="ReplaceText('BinToDecID', BinToDec(GetText('BinValue')))">Calculate</button>
         <input type="text" placeholder="result" readonly id="BinToDecID">
+        <button onclick="ReplaceText('BinToDecID', BinToDec(GetText('BinValue')))">Calculate</button>
 
     </div>
+
 
 </body>
 </html>

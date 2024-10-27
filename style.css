@@ -1,4 +1,5 @@
-/* Стили написаны Chat GPT */
+    /* Стили написаны Chat GPT */
+/* Кроме анимаций, их писал я сам :3 */
 
 /* Общие стили для страницы */
 body {
@@ -20,6 +21,7 @@ div {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 400px;
+    transition: 0.3s;
     margin: 0 auto 30px auto;
 }
 
@@ -40,11 +42,12 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: all 0.3s;
 }
 
 button:hover {
     background-color: #005fa3;
+    transform: scale(105%);
 }
 
 /* Стили для надписи в верхней части */
@@ -52,4 +55,10 @@ body > div:first-of-type {
     font-size: 18px;
     margin-bottom: 30px;
     color: #555;
+}
+
+div:hover {
+
+    transform: scale(105%);
+
 }

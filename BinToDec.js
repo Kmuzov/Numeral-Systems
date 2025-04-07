@@ -2,7 +2,7 @@ let BinToDec = (value) => { //Функция перевода двоичного
 
     console.log(value);
 
-    bitLen = value.length; //Длина машиного слова
+    bitLen = value.length; //Длина числа
     res = 0; //Результат
     add = Math.pow(2, bitLen-1); //Что добавить
 

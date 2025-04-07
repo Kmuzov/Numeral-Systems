@@ -62,3 +62,10 @@ div:hover {
     transform: scale(105%);
 
 }
+
+/* Костыль, потому-что у меня откуда-то появились ещё два DIV-а */
+.troywell-caa, .troywell-avia {
+
+    opacity: 0;
+    
+}
